@@ -1,0 +1,47 @@
+body{
+    display: flex;
+}
+
+.nav-v-cont {
+    margin-right: 10%;
+}
+
+.nav-v {
+    margin-top: 20px;
+    border: 1px solid black;
+    /* width: 10%; */
+    padding: 5px 5px 0px 5px;
+}
+
+.nav-h
+{
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    padding: 5px;
+    padding-right: 0px;
+    width: auto;
+
+}
+
+.nav-h-choice {
+    background-color: gray;
+    border: solid blue;
+    border-width: 0px 0px 0px 1px;
+    padding: 5px;
+    width: 50px;
+}
+
+.nav-h-choice:hover {
+    background-color: dimgray;
+}
+
+.nav-v-choice {
+    background-color: rgb(57, 155, 155);
+    padding: 10px;
+}
+
+.nav-v-choice:hover {
+    background-color: rgb(222, 193, 26);
+}

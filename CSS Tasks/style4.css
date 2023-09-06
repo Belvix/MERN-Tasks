@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    position: absolute;
+    top: 50px;
+}
+
+.text {
+    margin-left: 20%;
+    margin-top: 0px;
+    width: auto;
+}
+
+h2{
+    margin-top: 0px;
+}
+
+.sidenav {
+    display: flex;
+}
+
+#home{
+    background-color: green;
+    top: 0px;
+}
+
+#html {
+    background-color: lightskyblue;
+    top: 120px;
+}
+
+
+#css {
+    background-color: red;
+    top: 240px;
+}
+
+#js {
+    background-color: rgb(110, 103, 103);
+    top: 360px;
+}
+
+a {
+    position: absolute;
+    text-align: center;
+    padding: 30px;
+    margin-left: 0px;
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    left: -120px;
+    transition-duration: 0.2s;
+    border-radius: 0px 10px 10px 0px;
+}
+
+a:hover{
+    left: -10px;
+}

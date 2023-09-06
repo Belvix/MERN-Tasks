@@ -1,0 +1,28 @@
+table{
+    width: 50%;
+    border: 0px;
+    border-collapse: collapse;
+}
+
+#header-row {
+    background-color: #0fbd83;
+}
+
+th {
+    padding: 10px;
+}
+
+td {
+    border: 0px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+tr:nth-of-type(even){
+    background-color: lightgrey;
+}
+
+tr:nth-of-type(odd){
+    background-color: white;
+}
+
